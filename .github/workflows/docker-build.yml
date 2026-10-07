@@ -3,10 +3,10 @@ name: Docker Image Build
 on:
   push:
     branches:
-      - main
+      - release/demoapi
   pull_request:
     branches:
-      - main
+      - release/demoapi
 
 jobs:
   docker-build:
