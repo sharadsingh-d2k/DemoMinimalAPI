@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - release/demoapi
-  pull_request:
-    branches:
-      - release/demoapi
+
 
 jobs:
   docker-build:
